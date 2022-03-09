@@ -6,14 +6,22 @@ body {
   background-color: #C5BAAF;
 }
 
-.accent {
-  width: 0;
-  height: 0;
-  border-top: 100px solid #ce2d4f;
-  border-right: 100px solid transparent;
+hr {
+  margin: auto;
+  width: 50vw;
 }
 
-.profile {
-    z-index: -1;
-    position: relative;
+.catLogo {
+  max-width: 250px;
+  margin: auto;
+}
+
+.depotLogo {
+  max-width: 250px;
+  margin: auto;
+}
+
+.psuLogo {
+  max-width: 250px;
+  margin: auto;
 }
