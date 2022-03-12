@@ -1,12 +1,52 @@
+@media (max-width: 570px) {
+  .content {
+    width: 80vw;
+  }
+  hr {
+    margin: auto;
+    width: 80vw;
+  }
+  .navbar-nav {
+    width: 100vw;
+  }
+}
+
+
+@media (min-width: 571px) and (max-width: 800px) {
+  .content {
+    width: 75vw;
+  }
+  hr {
+    margin: auto;
+    width: 75vw;
+  }
+  .navbar-nav {
+    width: 75vw;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+}
+
+@media (min-width: 801px) {
+  .content {
+    width: 50vw;
+  }
+
+  hr {
+    margin: auto;
+    width: 50vw;
+  }
+
+  .navbar-nav {
+    width: 50vw;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+}
 
 
 body {
   background-color: #FFF;
-}
-
-hr {
-  margin: auto;
-  width: 50vw;
 }
 
 .catLogo {
@@ -23,3 +63,8 @@ hr {
   max-width: 250px;
   margin: auto;
 }
+
+.logo {
+  width: 250px;
+}
+
