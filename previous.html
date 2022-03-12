@@ -12,23 +12,24 @@
     <script defer src="scripts.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand navbar-dark">
-      <div class="w-50 mx-auto container-fluid">
-        <a class="navbar-brand" href="index.html">Ian Wasson</a>
-        <div class="navbar-nav">
-          <a class="nav-link" href="index.html">Home</a>
-          <a class="nav-link active" aria-current="page" href="#">Resume</a>
-          <a class="nav-link" href="projects.html">Projects</a>
-          <a class="nav-link" href="contact.html">Contact</a>
-        </div>
+    <div class="mx-auto text-center">
+      <img src="./assets/Ian-Logo.png" class="logo">
+    </div>
+    <nav class="navbar navbar-expand navbar-light justify-content-center">
+      <div class="navbar-nav container-fluid fw-bold">
+        <a class="nav-link" href="index.html">HOME</a>
+        <a class="nav-link active"  aria-current="page" href="previous.html">RESUME</a>
+        <a class="nav-link" href="projects.html">PROJECTS</a>
+        <a class="nav-link" href="contact.html">CONTACT</a>
       </div>
     </nav>
-    <div class="mx-auto w-50 my-5 d-flex flex-wrap justify-content-center">
-      <h2 class="mb-3 col-12 text-center">Work Experience</h2>
+    <hr>
+    <div class="mx-auto content my-5 d-flex flex-wrap justify-content-center row gx-2">
+      <h2 class="mb-3 col-12 text-center workHeader">Work Experience</h2>
       <hr />
 
       <!-- theCAT Work Experience -->
-      <div class="card col-md-8 col-sm-12 pt-2 my-2 shadow-lg">
+      <div class="card col-lg-11 col-md-12 col-sm-12 pt-2 my-2 shadow-lg">
         <img
           src="./assets/catlogo.png"
           class="card-img-top catLogo"
@@ -70,7 +71,7 @@
       </div>
 
       <!-- Novus Work Experience -->
-      <div class="card col-md-5 col-sm-12 p-3 m-2 shadow-lg">
+      <div class="card col-lg-5 col-md-12 col-sm-12 p-3 shadow-lg">
         <img
           src="./assets/NOVUS logo.png"
           class="card-img-top my-5 p-5"
@@ -91,7 +92,7 @@
       </div>
 
       <!-- the Home Depot Work Experience -->
-      <div class="card col-md-6 col-sm-12 p-3 m-2 shadow-lg">
+      <div class="card col-lg-5 offset-lg-1 col-md-12 col-sm-12 p-3 shadow-lg">
         <img
           src="./assets/homedepot.png"
           class="card-img-top depotLogo"
@@ -118,9 +119,9 @@
       </div>
 
       <h2 class="my-3 col-12 text-center">Volunteer Experience</h2>
-      <hr />
+      <hr class="mb-2">
       <!-- MYAB Volunteer Experience -->
-      <div class="card col-md-5 col-sm-12 p-3 m-2 shadow-lg">
+      <div class="card col-lg-5 col-md-12 col-sm-12 p-3 shadow-lg">
         <img
           src="./assets/beaverton logo.png"
           class="card-img-top"
@@ -143,7 +144,7 @@
       </div>
 
       <!-- Robotics Volunteer Experience -->
-      <div class="card col-md-5 col-sm-12 p-3 m-2 shadow-lg">
+      <div class="card col-lg-5 offset-lg-1 col-md-12 col-sm-12 p-3 shadow-lg">
         <img
           src="./assets/PSU Logos.png"
           class="card-img-top psuLogo"
