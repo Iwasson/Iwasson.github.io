@@ -9,6 +9,9 @@
   .navbar-nav {
     width: 100vw;
   }
+  .contactForm {
+    width: 80vw;
+  }
 }
 
 
@@ -25,22 +28,32 @@
     padding-left: 3em;
     padding-right: 3em;
   }
+  .contactForm {
+    width: 75vw;
+  }
 }
 
 @media (min-width: 801px) {
   .content {
     width: 50vw;
   }
-
   hr {
     margin: auto;
     width: 50vw;
   }
-
   .navbar-nav {
     width: 50vw;
     padding-left: 3em;
     padding-right: 3em;
+  }
+  .contactForm {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contactForm {
+    width: 25vw;
   }
 }
 
